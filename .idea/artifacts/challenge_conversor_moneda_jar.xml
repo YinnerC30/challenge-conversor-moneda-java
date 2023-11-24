@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="challenge-conversor-moneda:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/challenge_conversor_moneda_jar</output-path>
+    <root id="archive" name="challenge-conversor-moneda.jar">
+      <element id="module-output" name="challenge-conversor-moneda" />
+    </root>
+  </artifact>
+</component>
