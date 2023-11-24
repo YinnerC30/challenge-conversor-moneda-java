@@ -72,7 +72,7 @@ El proyecto por el momento se encuentra finalizado, no obstante se tiene pensado
 
 - Clonar el repositorio desde la siguiente URL : `https://github.com/YinnerC30/challenge-conversor-moneda-java.git`
 
-- Descargar el archivo `challenge-conversor-moneda.jar` haciendo clic aquí  .
+- Descargar el archivo `challenge-conversor-moneda.jar` haciendo clic [aquí](https://github.com/0e6142cd-5c82-43d1-afec-2d17fc3b3e2d).
 - Abrir una terminal en el direcotiro donde se descargo el anterior archivo
 - Ejecutar el comando `java -jar challenge-conversor-moneda.jar`
 
