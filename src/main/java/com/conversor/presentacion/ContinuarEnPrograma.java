@@ -38,6 +38,7 @@ public class ContinuarEnPrograma extends Ventana {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Código a ejecutar cuando se hace clic en el botón
+                JOptionPane.showMessageDialog(ventana, "El programa ha finalizado");
                 ventana.dispose();
             }
         });
@@ -46,6 +47,7 @@ public class ContinuarEnPrograma extends Ventana {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Código a ejecutar cuando se hace clic en el botón
+                JOptionPane.showMessageDialog(ventana, "El programa ha finalizado");
                 ventana.dispose();
             }
         });

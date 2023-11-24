@@ -5,6 +5,7 @@ import com.conversor.logica.TiposTemperatura;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 
 public class SeleccionTemperatura {
 
@@ -46,8 +47,8 @@ public class SeleccionTemperatura {
 
                 }
 
-
-                new Resultado("Resultado conversión de temperatura", "El resultado es: " + resultado);
+                DecimalFormat formato = new DecimalFormat("#.##");
+                new Resultado("Resultado conversión de temperatura", "El resultado es: " + formato.format(resultado));
 
             }
         });

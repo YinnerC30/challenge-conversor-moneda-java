@@ -5,6 +5,7 @@ import com.conversor.logica.ValorConversionPesoColombiano;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 
 public class SeleccionMoneda {
     public SeleccionMoneda(Float valorInput) {
@@ -57,8 +58,8 @@ public class SeleccionMoneda {
                             resultado = conversionMonedas(TiposMoneda.WON_SOUL_COREANO, TiposMoneda.PESOS_COLOMBIANOS, valorInput);
                 }
 
-
-                new Resultado("Resultado conversor moneda", "El resultado es: " + resultado);
+                DecimalFormat formato = new DecimalFormat("#.##");
+                new Resultado("Resultado conversor moneda", "El resultado es: " + formato.format(resultado));
 
             }
         });
@@ -69,7 +70,7 @@ public class SeleccionMoneda {
             public void actionPerformed(ActionEvent e) {
 
                 menu.ventana.dispose();
-                SeleccionConversor conversor = new SeleccionConversor();
+                new SeleccionConversor();
             }
         });
     }

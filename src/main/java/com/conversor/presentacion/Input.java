@@ -47,11 +47,9 @@ public class Input extends JFrame {
                 if ((valorInput != null || !valorInput.isEmpty()) && esNumeroValido(valorInput)) {
                     if (tipoInput.contains("dinero")) {
                         ventana.dispose();
-                        System.out.println("Ingresaste al selector de moneda");
                         new SeleccionMoneda(Float.parseFloat(valorInput));
                     } else {
                         ventana.dispose();
-                        System.out.println("Ingresaste al selector de temperatura");
                         new SeleccionTemperatura(Float.parseFloat(valorInput));
                     }
                 }
