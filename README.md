@@ -10,7 +10,7 @@
 - [Acceso al proyecto](#Acceso-al-proyecto)
 - [Tecnologías utilizadas](#Tecnologías-utilizadas)
 
-# Descripción del proyecto
+# 📝 Descripción del proyecto
 
 El presente proyecto es un aplicativo desarrollado con el fin de brindar un conversor de divisas y conversor de temperatura.
 
@@ -28,11 +28,11 @@ En la conversión de divisas se presentan los siguientes casos:
 - Convertir de Won sur-coreano a pesos colombianos.
 
 
-# Estado del proyecto
+# 🟢 Estado del proyecto
 
 El proyecto por el momento se encuentra finalizado, no obstante se tiene pensado agregarle otro tipo de funcionalidades en el futuro, tales como otro tipo de conversores utiles.
 
-# Demostración de funcionalidades
+# 💻 Demostración de funcionalidades
 
 ### Convertir de pesos colombianos a Dólares
 
@@ -68,7 +68,7 @@ El proyecto por el momento se encuentra finalizado, no obstante se tiene pensado
 
 
 
-# Acceso al proyecto
+# 🚧 Acceso al proyecto
 
 - Clonar el repositorio desde la siguiente URL : `https://github.com/YinnerC30/challenge-conversor-moneda-java.git`
 
@@ -76,7 +76,7 @@ El proyecto por el momento se encuentra finalizado, no obstante se tiene pensado
 - Abrir una terminal en el direcotiro donde se descargo el anterior archivo
 - Ejecutar el comando `java -jar challenge-conversor-moneda.jar`
 
-# Tecnologías utilizadas
+# 👨‍💻 Tecnologías utilizadas
 
 - Java 17
 - Libreria Swing
